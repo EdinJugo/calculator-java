@@ -14,12 +14,16 @@ File: calculator-java
 
 L4    public class Calculator 
 (Potrebno dodati privatni konstruktor kako biste sakrili implicitni javni)
+
 Ll8   public static String ToString()
 (Potrebno promjeniti ime metode "ToString" kako bi izbjegli probleme sa metodom "toString".Metode počinju sa malim slovom)
+
 L24 public static String Run
 (Potrebno promjeniti prvo početno slovo u malo)
+
 L70  String textResult = Float.toString(finalResult);
 (Zamjeniti sa return Float.toString(finalResult); )
+
 L183 return;
 (Izbrisati, možemo bez)
 
