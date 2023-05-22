@@ -1,0 +1,40 @@
+--------------------------------------
+System testing/ Black box
+-Test plan-
+
+[1] Testiranje izlazka iz kalkulatora
+-test1: Unos: exit // Očekivani rezultat: exit
+
+[2] Testiranje osnovnih aritmetičkih operacija
+-Test_Zbrajanje: Unos: 5+5 // Očekivani rezultat: 10
+-Test_Oduzimanje: Unos: 6-1 // Očekivani rezultat: 5
+-Test_Dijeljenje: Unos: 36/3 // Očekivani rezultat: 12
+-Test_Množenje: Unos: 150*3 // Očekivani rezultat: 450
+
+[3] Testiranje osnovnih aritmetičkih operacija sa negativnim brojem
+-test1: Unos: -14-4 // Očekivani rezultat: -18
+-test2: Unos: -8+2 // Očekivani rezultat: -6
+-test3: Unos: -100/-4 // Očekivani rezultat: -25
+-test4: Unos: -4*3 // Očekivani rezultat: -12
+
+[4] Testiranje prioriteta računalnih operacija
+-test1: Unos: 10+6/6-3 // Očekivani rezultat: 8
+-test2: Unos: 25/5+2 // Očekivani rezultat: 7
+-test3: Unos: 4-2*4+6 // Očekivani rezultat: 2
+
+[5] Testiranje neispravnih unosa
+-test1: Unos: 5/*5 // Očekivani rezultat: "error"
+-test2: Unos: 17++0 // Očekivani rezultat: "error"
+-test3: Unos: 3a4 // Očekivani rezultat: "error"
+-test4: Unos: )4*4 // Očekivani rezultat: "error"
+-test5: Unos: jedan plus jedan // Očekivani rezultat: "error"
+-test6: Unos: ,8-4 // Očekivani rezultat: "error"
+
+[6] Testiranje brojeva sa decimalama
+-Test_Zbrajanje: Unos: 5.5+4.5 // Očekivani rezultat: 10
+-Test_Oduzimanje: Unos: 6.3-1.2 // Očekivani rezultat: 5.1
+-Test_Dijeljenje: Unos: 99.9/33.3 // Očekivani rezultat: 3
+-Test_Množenje: Unos: 47.4*7 // Očekivani rezultat: 331.80002
+
+[7] Testiranje dijeljenja nulom
+-test1: Unos: 8/0 // Očekivani rezultat: Infinity
